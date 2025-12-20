@@ -1,0 +1,15 @@
+name: LengBack
+version: 1.2
+main: shaziawa.lengback.LengBack
+api-version: 1.21
+commands:
+  lback:
+    description: 传送到上次死亡的位置
+    usage: /lback
+permissions:
+  lengback.back:
+    description: 允许使用/lback命令
+    default: true
+  CFC.zanzhu:
+    description: 赞助者特权
+    default: false
